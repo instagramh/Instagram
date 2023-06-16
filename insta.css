@@ -58,11 +58,11 @@ form input[type="text"], form input[type="password"]{
     position: relative;
 }
 form input[type="text"]:focus, form input[type="password"]:focus{
-    outline: .8px solid rgba(122, 122, 122, 0.582)
+    outline: .1px solid rgba(196, 196, 196)
 
 }
 input[type="text"]{
-    margin: 5px 0px;
+    margin: 6px 0px;
     position: relative;
 }
 
@@ -338,7 +338,7 @@ form input[type="text"]{
      border-radius: 5px;
      width: 268px;
      margin: auto;
-    margin-bottom: .6rem;
+    margin-bottom: .7rem;
     position: relative;
 }
 input[type="text"]:focus + .car{
